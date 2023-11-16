@@ -133,3 +133,22 @@ div .des:hover{
     background-color: orangered;
 
 }
+.end{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+    margin-top: 80px;
+    margin-left: -100px;
+    background-color: rgb(21, 21, 104);
+    width: 100%;
+}
+.end p{
+    flex: 1;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+.end p:hover{
+    color: red;
+}
